@@ -20,7 +20,7 @@ Sample Build and Deploy using Docker Compose
 
 
 Start App
-[ec2-user@ip-172-31-18-248 gql-blog]$ sudo docker-compose up --build -d
+>>> sudo docker-compose up --build -d
 Creating network "gql-blog_default" with the default driver
 Building app
 Step 1/7 : FROM node:14
@@ -29,10 +29,10 @@ Step 2/7 : WORKDIR /usr/src/app
 . . . . 
 
 Stop
-[ec2-user@ip-172-31-18-248 gql-blog]$ sudo docker-compose down
+>>> sudo docker-compose down
 Stopping blog-platform ... done
 Stopping mongo         ... done
 Removing blog-platform ... done
 Removing mongo         ... done
 Removing network gql-blog_default
-![image](https://github.com/jvandenbossche/graphql-blog/assets/50995298/9a583d22-2f3b-4292-bfd0-62e962075004)
+
